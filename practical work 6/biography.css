@@ -1,0 +1,168 @@
+/*sulka1 */
+.sulka1:link
+   {
+      color: rgb(0, 255, 64);
+      background-color: blue;
+      text-decoration: none;
+      border: 3px solid red;
+      display: block;
+      width: 150px;
+   }
+   .sulka1:hover {
+      color: rgb(255, 255, 255);
+      background-color: magenta;
+    }
+   .sulka1:visited
+    {
+        color: rgb(0, 0, 0);
+        background-color: rgb(212, 255, 0);
+    }
+   
+ /*sulka2 */
+ .sulka2:link
+   {
+      color: rgb(0, 255, 64);
+      background-color: blue;
+      text-decoration: none;
+      border: 3px solid red;
+      display: block;
+      width: 150px;
+   }
+   .sulka2:hover {
+      color: rgb(255, 255, 255);
+      background-color: magenta;
+    }
+   .sulka2:visited
+    {
+        color: rgb(0, 0, 0);
+        background-color: rgb(212, 255, 0);
+    }
+    /*sulka3 */
+    .sulka3:link
+   {
+      color: rgb(0, 255, 64);
+      background-color: blue;
+      text-decoration: none;
+      border: 3px solid red;
+      display: block;
+      width: 150px;
+   }
+   .sulka3:hover {
+      color: rgb(255, 255, 255);
+      background-color: magenta;
+    }
+   .sulka3:visited
+    {
+        color: rgb(0, 0, 0);
+        background-color: rgb(212, 255, 0);
+    }
+   /*sulka4 */
+    .sulka4:link
+   {
+      color: rgb(0, 255, 64);
+      background-color: blue;
+      text-decoration: none;
+      border: 3px solid red;
+      display: block;
+      width: 150px;
+   }
+   .sulka4:hover {
+      color: rgb(255, 255, 255);
+      background-color: magenta;
+    }
+   .sulka4:visited
+    {
+        color: rgb(0, 0, 0);
+        background-color: rgb(212, 255, 0);
+    }
+    /*sulka5 */
+    .sulka5:link
+   {
+      color: rgb(0, 255, 64);
+      background-color: blue;
+      text-decoration: none;
+      border: 3px solid red;
+      display: block;
+      width: 150px;
+   }
+   .sulka5:hover {
+      color: rgb(255, 255, 255);
+      background-color: magenta;
+    }
+   .sulka5:visited
+    {
+        color: rgb(0, 0, 0);
+        background-color: rgb(212, 255, 0);
+    }
+    #C8{
+      text-align: center;
+      font-size: 22px;
+    }
+    .nazat{
+      font-style: italic;
+    }
+   #C7{
+      text-align: center;
+   }
+   #C1, #C2, #C3, #C4, #C5{
+      font-size: 140%;
+   }
+   .ppp{
+      font-size: 120%;
+   }
+   h3{
+      font-weight: 600;
+   }
+   .xxxx{
+      text-transform: uppercase;
+   }
+
+   article{
+      border: 1px solid black;
+      background-color:#D5E8D4;
+      margin: 5px;
+      
+   }
+   
+   @media (min-width: 992px){
+   
+      section{
+         display: flex;
+         flex-wrap: wrap;
+      }
+      article{
+         flex: 400px;
+      }
+      article:nth-of-type(1){
+         flex: 600px;
+      }
+      article:nth-of-type(4){
+         flex: 600px;
+      }
+      article:nth-of-type(5){
+         flex: 400px;
+         order: -1;
+      }
+   }
+   @media (min-width: 768px) and (max-width: 992px) {
+      section{
+         display: flex;
+         flex-wrap: wrap;
+      }
+      article{
+         flex: 400px;
+      }
+      article:nth-of-type(1){
+         flex: 600px;
+      }
+      article:nth-of-type(4){
+         flex: 600px;
+      }
+      article:nth-of-type(5){
+         flex: 600px;
+         order: -1;
+      }
+   }
+   @media (max-width: 992px) {
+
+   }

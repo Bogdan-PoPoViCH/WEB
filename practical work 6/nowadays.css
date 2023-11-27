@@ -1,0 +1,55 @@
+.gray{
+    background-color: gray;
+}
+
+.fff 
+{
+  cursor: pointer;
+}
+
+.ddd
+{
+    background-color: red;
+}
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+.italic{
+    font-style: italic;
+}
+.center
+{
+    text-align: center;
+}
+
+@media (min-width: 992px){
+   
+    section{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    article{
+       flex: 400px;
+    }
+ }
+ @media (min-width: 768px) and (max-width: 992px) {
+    article:nth-last-of-type(1) {
+        flex: 400px;
+    }
+    article:nth-last-of-type(2) {
+        flex: 400px;
+    }
+    }
+@media (max-width: 992px)
+{
+    article:nth-last-of-type(1) {
+        flex: 400px;
+    }
+    article:nth-last-of-type(2) {
+        flex: 400px;
+    }
+}
+
+    
+

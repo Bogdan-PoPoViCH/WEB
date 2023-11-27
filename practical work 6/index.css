@@ -1,0 +1,64 @@
+
+    .Sulka1:link
+    {
+       color:blue;
+       
+    }
+    .Sulka1:visited
+    {
+        color: red;
+    }
+    .Sulka2:link
+    {
+       color:rgb(243, 138, 103);
+    }
+    .Sulka2:visited
+    {
+        color: rgb(2, 104, 41);
+    }
+    .Sulka3:link
+    {
+       color:rgb(245, 10, 182);
+    }
+    .Sulka3:visited
+    {
+        color: rgb(169, 225, 157);
+    }
+    .Sulka4:link
+    {
+       color:rgb(8, 129, 135);
+    }
+    .Sulka4:visited
+    {
+        color: rgb(115, 14, 229);
+    }
+    h1{
+        text-align: center;
+        font-size: 24px;
+    }
+    .g{
+        font-size: 120%;
+    }
+    
+    @media (min-width: 992px){
+        section{
+            display: flex;
+        }
+        article{
+            margin: 5px;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 992px) {
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+    
+        article {
+            width: 48%; 
+            margin: 5px;
+        }
+    }
+    
+    
